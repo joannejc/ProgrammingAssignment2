@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## returned from the above 'makeCacheMatrix'.
 
 ## If the inverse matrix has been calculated already, then this 'cacheSolve' 
-## will output "getting cached data" and retireve the matrix from the cache.
+## will output "getting cached data" & retireve the matrix from the cache.
 
 cacheSolve <- function(x, ...) {
   cacheSolve <- function(x, ...) {
